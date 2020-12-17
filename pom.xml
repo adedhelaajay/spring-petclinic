@@ -368,5 +368,11 @@
       </build>
     </profile>
   </profiles>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0ylywhj4fjfw-artifactory-primary-0-releases</name>
+        <url>https://conquerors.jfrog.io/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
